@@ -1,0 +1,69 @@
+@import 'reset.css';
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family:
+    Avenir,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.application {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition:
+    background-color 600000s 0s,
+    color 600000s 0s;
+}
+
+pre {
+  display: inline-block;
+  padding: 8px 48px 8px 12px;
+  margin: 6px 12px 6px 0;
+  background-color: #282C34;
+  color: #e9e9e9;
+  font-size: 16px;
+  font-family: monospace;
+  overflow: auto;
+  min-width: 240px;
+  max-height: 480px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+pre::selection {
+  background-color: purple;
+}
+
+.select-none {
+  user-select: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6, .h7 {
+  font-weight: 700;
+}
