@@ -1,7 +1,8 @@
 <template>
-  <div style="padding: 20px">
+  <div class="flex-grow bg-slate-100 p-4">
     <h1>Boilerplate</h1>
     <ul>
+      <li>uno.css support, beautify pages, add backgrounds</li>
       <li>yandexID auth - get user data https://yandex.ru/dev/id/doc/ru/user-information</li>
       <li>Pinia</li>
       <li>yandex map integration</li>

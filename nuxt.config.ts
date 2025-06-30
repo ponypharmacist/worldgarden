@@ -17,7 +17,10 @@ export default defineNuxtConfig({
 
   // devtools: { enabled: true },
 
-  modules: ['@nuxt/eslint'],
+  modules: [
+    '@nuxt/eslint',
+    'nuxt-windicss',
+  ],
 
   runtimeConfig: {
     // Only available on the server
